@@ -1,4 +1,5 @@
-name: C++ Build Test
+-name: Build Docker image
+run: docker build -t cpp-demo .
 
 on:
   push:
